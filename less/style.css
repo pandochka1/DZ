@@ -1,0 +1,71 @@
+/* https://www.colorzilla.com/gradient-editor/ */
+/* https://ru.pngtree.com/so/pattern */
+h1 {
+  height: 200px;
+  background: powderblue;
+  background: -moz-linear-gradient(left, powderblue 0%, pink 100%);
+  background: -webkit-linear-gradient(left, powderblue 0%, pink 100%);
+  background: linear-gradient(to right, powderblue 0%, pink 100%);
+  background: -o-radial-gradient(powderblue, pink);
+}
+.wrap {
+  height: 200px;
+  padding: 50px 0;
+  background: #cccccc;
+}
+.wrap .button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+  box-shadow: 5px 10px 20px #aaaaaa 96, -5px -10px 20px rgba(255, 255, 255, 0.5);
+}
+.hyperlink {
+  display: flex;
+  gap: 50px;
+}
+.hyperlink a {
+  text-decoration: none;
+  color: #000000;
+}
+.hyperlink a:hover {
+  color: #ffffff;
+  background-color: #fb048c;
+}
+h1 {
+  color: red;
+  font-size: 32pt;
+  border: 3px double #f005b5;
+}
+h1 span {
+  text-decoration: underline;
+  font-style: italic;
+  color: #1100ff;
+}
+.navigation {
+  height: 500px;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: palevioletred;
+}
+.link a {
+  text-decoration: none;
+  color: black;
+}
+#navigation {
+  background-color: palevioletred;
+}
+.hyper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: palevioletred;
+}
+.hyper a {
+  text-decoration: none;
+  color: black;
+}
